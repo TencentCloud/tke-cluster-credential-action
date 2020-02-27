@@ -22,7 +22,7 @@ Retrieve TKE cluster credential and set it to `$HOME/.kube/config`.
 ## Example usage
 
 ```
-uses: TencentCloud/tke-cluster-credential-action@master
+uses: TencentCloud/tke-cluster-credential-action@v1
 with:
   secret_id: ${{ secrets.TENCENT_CLOUD_SECRET_ID }}
   secret_key: ${{ secrets.TENCENT_CLOUD_SECRET_KEY }}
