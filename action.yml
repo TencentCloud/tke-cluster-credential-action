@@ -1,0 +1,19 @@
+ 
+name: 'Tencent Cloud TKE Cluster Credential Action'
+description: 'Retrieve TKE cluster credential and set it to `$HOME/.kube/config`.'
+inputs:
+  secret_id:
+    description: 'Tencent Cloud secret id. Should be referred to a encrypted environment variable'
+    required: true
+  secret_key:
+    description: 'Tencent Cloud secret key. Should be referred to a encrypted environment variable'
+    required: true
+  tke_region:
+    description: 'TKE region'
+    required: true
+  cluster_id:
+    description: 'TKE cluster id'
+    required: true
+runs:
+  using: 'node12'
+  main: 'index.js'
