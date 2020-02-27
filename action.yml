@@ -1,6 +1,9 @@
  
 name: 'Tencent Cloud TKE Cluster Credential Action'
 description: 'Retrieve TKE cluster credential and set it to `$HOME/.kube/config`.'
+branding:
+  icon: 'unlock'  
+  color: 'blue'
 inputs:
   secret_id:
     description: 'Tencent Cloud secret id. Should be referred to a encrypted environment variable'
