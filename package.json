@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "@actions/core": "^1.2.2",
-    "@actions/github": "^2.1.1",
+    "@actions/github": "^6.0.0",
     "tencentcloud-sdk-nodejs": "^3.0.121",
     "yaml": "^1.7.2"
   }
